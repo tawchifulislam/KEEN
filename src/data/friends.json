@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Ariful Islam",
+    "picture": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+    "email": "arif.islam@email.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["university", "travel"],
+    "bio": "Studied together at DU. Currently working at a tech firm. We love trekking in Sylhet.",
+    "goal": 30,
+    "next_due_date": "2026-03-20"
+  },
+  {
+    "id": 2,
+    "name": "Nusrat Jahan",
+    "picture": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
+    "email": "nusrat.jahan@provider.net",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["school friend", "coffee"],
+    "bio": "Childhood friend from Viqarunnisa. We meet monthly to discuss books and life.",
+    "goal": 14,
+    "next_due_date": "2026-04-29"
+  },
+  {
+    "id": 3,
+    "name": "Tanveer Ahmed",
+    "picture": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg",
+    "email": "tanveer.a@studio.com.bd",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["photography", "office"],
+    "bio": "Former colleague and an amazing photographer. He captures the best street portraits.",
+    "goal": 14,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 4,
+    "name": "Farhana Rini",
+    "picture": "https://images.pexels.com/photos/1066134/pexels-photo-1066134.jpeg",
+    "email": "rini.farhana@email.com",
+    "days_since_contact": 92,
+    "status": "overdue",
+    "tags": ["cousin", "architecture"],
+    "bio": "My elder cousin living in Chittagong. She is a talented architect and an avid gardener.",
+    "goal": 60,
+    "next_due_date": "2026-02-15"
+  },
+  {
+    "id": 5,
+    "name": "Sayem Chowdhury",
+    "picture": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
+    "email": "sayem.chow@health.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["gym", "neighbor"],
+    "bio": "Lives in the same building in Dhanmondi. My daily workout partner and nutrition guide.",
+    "goal": 7,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 6,
+    "name": "Sumaiya Sultana",
+    "picture": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+    "email": "sumaiya.m@outlook.com",
+    "days_since_contact": 25,
+    "status": "almost due",
+    "tags": ["cooking", "old friend"],
+    "bio": "Met during an art workshop. She makes the best Kacchi Biryani in the city.",
+    "goal": 30,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 7,
+    "name": "Arifur Rahman Rumon",
+    "picture": "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg",
+    "email": "rumon.design@email.com",
+    "days_since_contact": 10,
+    "status": "on-track",
+    "tags": ["freelance", "design"],
+    "bio": "Collaborated on several UI/UX projects. Based in Mirpur and loves vintage watches.",
+    "goal": 21,
+    "next_due_date": "2026-05-01"
+  },
+  {
+    "id": 8,
+    "name": "Shayla Ahmed",
+    "picture": "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg",
+    "email": "shayla.a@globalmail.com",
+    "days_since_contact": 80,
+    "status": "overdue",
+    "tags": ["college", "best friend"],
+    "bio": "Best friend from college days. Now living in Australia, but we catch up over video calls.",
+    "goal": 30,
+    "next_due_date": "2026-03-01"
+  },
+  {
+    "id": 9,
+    "name": "Mahmudul Hasan",
+    "picture": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg",
+    "email": "mahmudul.hasan@email.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["developer", "hackathon"],
+    "bio": "Met at a hackathon in Dhaka. Passionate about backend development and startups.",
+    "goal": 21,
+    "next_due_date": "2026-04-28"
+  },
+  {
+    "id": 10,
+    "name": "Tasnim Rahman",
+    "picture": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg",
+    "email": "tasnim.rahman@email.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["university", "debate"],
+    "bio": "University debate club friend. Loves public speaking and social issues.",
+    "goal": 14,
+    "next_due_date": "2026-04-27"
+  }
+]
