@@ -1,5 +1,6 @@
 import React from 'react';
 import Friends from '../components/Friends';
+import { FaPlus } from 'react-icons/fa';
 
 const Home = () => {
   return (
@@ -13,7 +14,8 @@ const Home = () => {
           <br />
           nurture the relationships that matter most.
         </p>
-        <button className="btn btn-success px-4 py-2 rounded-md">
+        <button className="btn bg-[#244D3F] px-4 py-2 rounded-md text-white">
+          <FaPlus />
           Add a Friend
         </button>
       </div>
