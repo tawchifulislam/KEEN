@@ -1,12 +1,18 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router';
+import { AiOutlineLoading3Quarters } from 'react-icons/ai';
 
 const Friends = () => {
   const [friends, setFriends] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetch('/friends.json')
       .then(res => res.json())
-      .then(data => setFriends(data));
+      .then(data => {
+        setFriends(data);
+        setLoading(false);
+      });
   }, []);
 
   const getStatusColor = status => {
@@ -16,40 +22,47 @@ const Friends = () => {
     return 'bg-gray-200 text-black';
   };
 
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center py-10">
+        <AiOutlineLoading3Quarters className="animate-spin text-3xl text-[#244D3F]" />
+      </div>
+    );
+  }
+
   return (
     <div className="p-6">
       <h2 className="text-xl font-bold mb-4 text-black">Your Friends</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {friends.map(friend => (
-          <div
-            key={friend.id}
-            className="bg-white shadow rounded p-4 text-center"
-          >
-            <img
-              src={friend.picture}
-              alt={friend.name}
-              className="w-24 h-24 rounded-full container mx-auto mb-3 object-cover"
-            />
-            <h3 className="font-semibold text-black">{friend.name}</h3>
-            <p className="text-sm text-black">
-              {friend.days_since_contact}d ago
-            </p>
-            <div className="flex justify-center gap-2 mb-2">
-              {friend.tags.map((tag, ind) => (
-                <span
-                  key={ind}
-                  className="text-xs bg-gray-200 px-2 py-1 rounded text-black"
-                >
-                  {tag}
-                </span>
-              ))}
+          <Link to={`/friend/${friend.id}`} key={friend.id}>
+            <div className="bg-white shadow rounded p-4 text-center">
+              <img
+                src={friend.picture}
+                alt={friend.name}
+                className="w-24 h-24 rounded-full mx-auto mb-3 object-cover border"
+              />
+              <h3 className="font-semibold text-black">{friend.name}</h3>
+              <p className="text-sm text-black">
+                {friend.days_since_contact}d ago
+              </p>
+              <div className="flex justify-center gap-2 mb-2">
+                {friend.tags.map((tag, ind) => (
+                  <span
+                    key={ind}
+                    className="text-xs bg-gray-200 px-2 py-1 rounded text-black"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+              <span
+                className={`inline-block px-3 py-1 rounded text-sm ${getStatusColor(friend.status)}`}
+              >
+                {friend.status}
+              </span>
             </div>
-            <span
-              className={`inline-block px-3 py-1 rounded text-sm ${getStatusColor(friend.status)}`}
-            >
-              {friend.status}
-            </span>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
