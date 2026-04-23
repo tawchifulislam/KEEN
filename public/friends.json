@@ -6,7 +6,7 @@
     "email": "arif.islam@email.com",
     "days_since_contact": 45,
     "status": "overdue",
-    "tags": ["university", "travel"],
+    "tags": ["university"],
     "bio": "Studied together at DU. Currently working at a tech firm. We love trekking in Sylhet.",
     "goal": 30,
     "next_due_date": "2026-03-20"
@@ -18,7 +18,7 @@
     "email": "nusrat.jahan@provider.net",
     "days_since_contact": 5,
     "status": "on-track",
-    "tags": ["school friend", "coffee"],
+    "tags": ["school friend"],
     "bio": "Childhood friend from Viqarunnisa. We meet monthly to discuss books and life.",
     "goal": 14,
     "next_due_date": "2026-04-29"
@@ -30,7 +30,7 @@
     "email": "tanveer.a@studio.com.bd",
     "days_since_contact": 12,
     "status": "almost due",
-    "tags": ["photography", "office"],
+    "tags": ["photographer"],
     "bio": "Former colleague and an amazing photographer. He captures the best street portraits.",
     "goal": 14,
     "next_due_date": "2026-04-22"
@@ -42,7 +42,7 @@
     "email": "rini.farhana@email.com",
     "days_since_contact": 92,
     "status": "overdue",
-    "tags": ["cousin", "architecture"],
+    "tags": ["cousin"],
     "bio": "My elder cousin living in Chittagong. She is a talented architect and an avid gardener.",
     "goal": 60,
     "next_due_date": "2026-02-15"
@@ -54,7 +54,7 @@
     "email": "sayem.chow@health.com",
     "days_since_contact": 2,
     "status": "on-track",
-    "tags": ["gym", "neighbor"],
+    "tags": ["neighbor"],
     "bio": "Lives in the same building in Dhanmondi. My daily workout partner and nutrition guide.",
     "goal": 7,
     "next_due_date": "2026-04-25"
@@ -66,7 +66,7 @@
     "email": "sumaiya.m@outlook.com",
     "days_since_contact": 25,
     "status": "almost due",
-    "tags": ["cooking", "old friend"],
+    "tags": ["old friend"],
     "bio": "Met during an art workshop. She makes the best Kacchi Biryani in the city.",
     "goal": 30,
     "next_due_date": "2026-04-25"
@@ -78,7 +78,7 @@
     "email": "rumon.design@email.com",
     "days_since_contact": 10,
     "status": "on-track",
-    "tags": ["freelance", "design"],
+    "tags": ["designer"],
     "bio": "Collaborated on several UI/UX projects. Based in Mirpur and loves vintage watches.",
     "goal": 21,
     "next_due_date": "2026-05-01"
@@ -90,7 +90,7 @@
     "email": "shayla.a@globalmail.com",
     "days_since_contact": 80,
     "status": "overdue",
-    "tags": ["college", "best friend"],
+    "tags": ["best friend"],
     "bio": "Best friend from college days. Now living in Australia, but we catch up over video calls.",
     "goal": 30,
     "next_due_date": "2026-03-01"
@@ -102,7 +102,7 @@
     "email": "mahmudul.hasan@email.com",
     "days_since_contact": 18,
     "status": "almost due",
-    "tags": ["developer", "hackathon"],
+    "tags": ["developer"],
     "bio": "Met at a hackathon in Dhaka. Passionate about backend development and startups.",
     "goal": 21,
     "next_due_date": "2026-04-28"
@@ -114,7 +114,7 @@
     "email": "tasnim.rahman@email.com",
     "days_since_contact": 7,
     "status": "on-track",
-    "tags": ["university", "debate"],
+    "tags": ["university"],
     "bio": "University debate club friend. Loves public speaking and social issues.",
     "goal": 14,
     "next_due_date": "2026-04-27"
