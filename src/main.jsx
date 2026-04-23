@@ -6,6 +6,7 @@ import { RouterProvider } from 'react-router/dom';
 import RootLayout from './layout/RootLayout';
 import NotFound from './pages/NotFound';
 import Home from './pages/Home';
+import FriendDetail from './pages/FriendDetail';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: '/stats',
         element: <h2>Stats</h2>,
+      },
+      {
+        path: '/frienddetail/:id',
+        element: <FriendDetail />,
       },
     ],
     errorElement: <NotFound />,
