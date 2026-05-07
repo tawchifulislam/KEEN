@@ -1,23 +1,26 @@
-# KeenKeeper
+# Keen Keeper
 
-### Description
+## 📖 Project Overview
 
-KeenKeeper is a personal relationship management tool designed to help you track
-and nurture meaningful connections with your friends and family.
+Keen Keeper is a simple relationship manager application that helps track
+interactions with friends (Call, Text, Video) and visualize them in charts. It
+provides a clear and user‑friendly interface to analyze communication patterns.
 
-### Technologies Used
+## 🛠️ Technologies Used
 
-- React 19
-- Tailwind CSS 4 & DaisyUI
-- React Router 7
-- Recharts
-- React Icons
+| Technology                           | Purpose                     |
+| ------------------------------------ | --------------------------- |
+| **React.js**                         | Build the UI                |
+| **React Router DOM**                 | Handle page navigation      |
+| **Tailwind CSS + Component Library** | Styling and responsiveness  |
+| **Recharts**                         | Data visualization (charts) |
+| **Netlify**                          | Deployment                  |
 
-### Key Features
+## ✨ Key Features
 
-1. **Relationship Tracking:** Set contact goals and monitor status (Overdue,
-   Almost Due, or On-track) for each friend.
-2. **Interaction Timeline:** Log calls, texts, and video chats to maintain a
-   clear history of your connections.
-3. **Visual Analytics:** View detailed statistics of your interaction types
-   through interactive charts.
+1. **Interactive Timeline** - All interactions are saved and displayed in a
+   timeline view.
+2. **Visual Stats Page** - Pie charts show the proportion of Call, Text, and
+   Video interactions.
+3. **Modern UI Components** - Responsive cards, navigation, and icon integration
+   for a clean design.
