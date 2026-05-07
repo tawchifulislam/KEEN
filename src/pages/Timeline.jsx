@@ -2,7 +2,6 @@ import { useContext, useState } from 'react';
 import { DialContext } from '../context/DialContext';
 import { IoIosCall, IoIosText } from 'react-icons/io';
 import { FaVideo } from 'react-icons/fa';
-
 const Timeline = () => {
   const { interactions } = useContext(DialContext);
   const [filterType, setFilterType] = useState('All');
