@@ -16,14 +16,14 @@ const Stats = () => {
   ).length;
 
   const data = [
-    { name: 'Call', value: callCount },
-    { name: 'Text', value: textCount },
-    { name: 'Video', value: videoCount },
+    { name: 'Call', value: callCount, fill: '#244d3f' },
+    { name: 'Text', value: textCount, fill: '#7e35e1' },
+    { name: 'Video', value: videoCount, fill: '#37a163' },
   ];
 
   return (
-    <div className="my-10 max-w-6xl container mx-auto px-4 md:px-0">
-      <h2 className="text-4xl font-bold mb-8 text-[#1e293b]">
+    <div className="my-10 max-w-4xl container mx-auto px-4 md:px-0">
+      <h2 className="text-3xl font-bold mb-8 text-[#1e293b]">
         Friendship Analytics
       </h2>
 
