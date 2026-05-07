@@ -25,20 +25,20 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="bg-base-100 shadow-sm sticky top-0 z-50 w-full">
+    <div className="bg-base-100 shadow-sm sticky top-0 z-100 w-full">
       <div className="navbar max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
         <div className="navbar-start">
-          <div className="dropdown">
+          <div className="dropdown lg:hidden">
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-ghost lg:hidden p-0 mr-2"
+              className="btn btn-ghost p-0 mr-2 pointer-events-auto"
             >
               <PiHamburgerThin className="text-2xl" />
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-4 shadow-xl flex flex-col gap-3 border border-base-200"
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-999 mt-3 w-52 p-4 shadow-xl flex flex-col gap-3 border border-base-200"
             >
               {navItems.map((item, index) => (
                 <li key={index}>
@@ -60,7 +60,6 @@ const Navbar = () => {
             KeenKeeper
           </Link>
         </div>
-
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-6 font-medium">
             {navItems.map((item, index) => (
